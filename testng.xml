@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+
+
+<listeners>
+<listener class-name="Amazon.EndtoEndProject.Listeners"/>
+</listeners>
+
+
+  <test name="Adding Multiple items in cart and validating">
+    <classes>
+      <class name="Amazon.EndtoEndProject.AmazonAddingMultipleItemstoCart"/>
+      </classes>
+      </test>
+      
+       <test name="Adding Same item in cart through different methods and validating">
+    <classes>
+      <class name="Amazon.EndtoEndProject.AmazonAddingSameItemstoCart"/>
+      </classes>
+      </test>
+      
+       <test name="Validating Title of Homepage">
+    <classes>
+      <class name="Amazon.EndtoEndProject.AmazonValidateTitle"/>
+      </classes>
+      </test>
+      
+             <test name="Validating LoginPage">
+    <classes>
+      <class name="Amazon.EndtoEndProject.AmazonLogin"/>
+      </classes>
+      </test>
+      
+      <test name="Getting Registration Data from Excel">
+    <classes>
+      <class name="Amazon.EndtoEndProject.DataDrivenSignup"/>
+       </classes>
+     </test> 
+      
+      
+       <test name="Test">
+    <classes>
+      <class name="Amazon.EndtoEndProject.AppTest"/>
+       </classes>
+     </test> 
+     
+     <!-- Test -->
+</suite> <!-- Suite -->

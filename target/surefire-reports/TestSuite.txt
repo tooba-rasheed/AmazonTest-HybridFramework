@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 86.986 s <<< FAILURE! - in TestSuite
+Validatingtitle(Amazon.EndtoEndProject.AmazonValidateTitle)  Time elapsed: 9.24 s  <<< FAILURE!
+java.lang.AssertionError: expected [Homepage] but found [Amazon.ca: Low Prices – Fast Shipping – Millions of Items]
+	at Amazon.EndtoEndProject.AmazonValidateTitle.Validatingtitle(AmazonValidateTitle.java:37)
+
+HomePage(Amazon.EndtoEndProject.AmazonAddingSameItemstoCart)  Time elapsed: 6.206 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Apple iPhone 11 Pro Max, 256GB, Midnight Green, Fully Unlocked (Renewed)')]"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CEP0DE1', ip: '10.0.0.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Tooba\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6b602543a0c30217c3968e92911fe49e
+*** Element info: {Using=xpath, value=//span[contains(text(),'Apple iPhone 11 Pro Max, 256GB, Midnight Green, Fully Unlocked (Renewed)')]}
+	at Amazon.EndtoEndProject.AmazonAddingSameItemstoCart.HomePage(AmazonAddingSameItemstoCart.java:57)
+
+Increasequantity(Amazon.EndtoEndProject.AmazonAddingSameItemstoCart)  Time elapsed: 9.366 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#sc\-update\-quantity\-select_2"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CEP0DE1', ip: '10.0.0.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Tooba\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6b602543a0c30217c3968e92911fe49e
+*** Element info: {Using=id, value=sc-update-quantity-select_2}
+	at Amazon.EndtoEndProject.AmazonAddingSameItemstoCart.Increasequantity(AmazonAddingSameItemstoCart.java:101)
+

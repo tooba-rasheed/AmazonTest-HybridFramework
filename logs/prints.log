@@ -1,0 +1,23 @@
+17:01:46.686 [main] INFO  resources.Base - Invalid
+17:01:52.005 [main] INFO  resources.Base - Wrong id
+17:02:06.518 [main] INFO  resources.Base - Valid
+17:11:42.032 [main] INFO  resources.Base - Invalid
+17:11:56.310 [main] INFO  resources.Base - Wrong id
+17:12:10.458 [main] INFO  resources.Base - Valid
+20:18:17.755 [main] INFO  resources.Base - Invalid
+20:18:33.987 [main] INFO  resources.Base - Wrong id
+20:18:48.636 [main] INFO  resources.Base - Valid
+20:23:40.786 [TestNG-tests-1] INFO  resources.Base - Driver is initialized
+20:24:11.564 [TestNG-tests-1] INFO  resources.Base - Serum added to cart
+20:24:17.923 [TestNG-tests-4] INFO  resources.Base - Invalid
+20:24:38.546 [TestNG-tests-4] INFO  resources.Base - Wrong id
+20:24:46.729 [TestNG-tests-1] INFO  resources.Base - eyecream added to cart
+20:24:54.934 [TestNG-tests-1] INFO  resources.Base - Soap added to cart
+20:24:55.486 [TestNG-tests-4] INFO  resources.Base - Valid
+20:24:58.327 [TestNG-tests-1] INFO  resources.Base - Subtotal (3 items): CDN$ 56.23
+20:28:49.431 [main] INFO  resources.Base - Driver is initialized
+20:29:00.129 [main] INFO  resources.Base - Serum added to cart
+20:29:11.064 [main] INFO  resources.Base - eyecream added to cart
+20:29:17.685 [main] INFO  resources.Base - Soap added to cart
+20:29:21.652 [main] INFO  resources.Base - Subtotal (3 items): CDN$ 56.23
+20:29:32.499 [main] INFO  resources.Base - Deleted all items>>Your Amazon Cart is empty

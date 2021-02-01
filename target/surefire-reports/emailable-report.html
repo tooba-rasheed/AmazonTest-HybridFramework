@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Validating Title of Homepage</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">30,290</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Adding Same item in cart through different methods and validating</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">68,909</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Validating LoginPage</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">73,972</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Adding Multiple items in cart and validating</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">85,514</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">258,697</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Validating Title of Homepage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Amazon.EndtoEndProject.AmazonValidateTitle</td><td><a href="#m0">Validatingtitle</a></td><td rowspan="1">1612038316926</td><td rowspan="1">9473</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Adding Same item in cart through different methods and validating &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Amazon.EndtoEndProject.AmazonAddingSameItemstoCart</td><td><a href="#m1">HomePage</a></td><td rowspan="1">1612038317085</td><td rowspan="1">37511</td></tr><tr class="failedeven"><td><a href="#m2">Increasequantity</a></td><td rowspan="1">1612038355153</td><td rowspan="1">11279</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Validating LoginPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Amazon.EndtoEndProject.AmazonLogin</td><td><a href="#m3">loginPagaNavigation</a></td><td rowspan="3">1612038357069</td><td rowspan="3">26664</td></tr><tr class="passedeven"><td><a href="#m4">loginPagaNavigation</a></td></tr><tr class="passedeven"><td><a href="#m5">loginPagaNavigation</a></td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Adding Multiple items in cart and validating &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Amazon.EndtoEndProject.AmazonAddingMultipleItemstoCart</td><td><a href="#m6">AddingMultipleItems</a></td><td rowspan="1">1612038317096</td><td rowspan="1">67424</td></tr><tr class="passedeven"><td><a href="#m7">RemovingAllItems</a></td><td rowspan="1">1612038384521</td><td rowspan="1">10881</td></tr></tbody>
+</table>
+<h2>Test</h2><h2>Validating Title of Homepage</h2><h3 id="m0">Amazon.EndtoEndProject.AmazonValidateTitle#Validatingtitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Homepage] but found [Amazon.ca: Low Prices – Fast Shipping – Millions of Items]
+	at Amazon.EndtoEndProject.AmazonValidateTitle.Validatingtitle(AmazonValidateTitle.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Adding Same item in cart through different methods and validating</h2><h3 id="m1">Amazon.EndtoEndProject.AmazonAddingSameItemstoCart#HomePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Apple iPhone 11 Pro Max, 256GB, Midnight Green, Fully Unlocked (Renewed)&apos;)]&quot;}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CEP0DE1&apos;, ip: &apos;10.0.0.242&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Tooba\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6b602543a0c30217c3968e92911fe49e
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Apple iPhone 11 Pro Max, 256GB, Midnight Green, Fully Unlocked (Renewed)&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageobjects.IphoneSearchPage.iphone(IphoneSearchPage.java:27)
+	at Amazon.EndtoEndProject.AmazonAddingSameItemstoCart.HomePage(AmazonAddingSameItemstoCart.java:57)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Amazon.EndtoEndProject.AmazonAddingSameItemstoCart#Increasequantity</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#sc\-update\-quantity\-select_2&quot;}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CEP0DE1&apos;, ip: &apos;10.0.0.242&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Tooba\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6b602543a0c30217c3968e92911fe49e
+*** Element info: {Using=id, value=sc-update-quantity-select_2}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageobjects.CartItems.increasequantityto2(CartItems.java:45)
+	at Amazon.EndtoEndProject.AmazonAddingSameItemstoCart.Increasequantity(AmazonAddingSameItemstoCart.java:101)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validating LoginPage</h2><h3 id="m3">Amazon.EndtoEndProject.AmazonLogin#loginPagaNavigation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>tooba.rasheed94@gmail.com</td><td>Juwerian</td><td>Correct user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Amazon.EndtoEndProject.AmazonLogin#loginPagaNavigation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>restricteduser@qw.com</td><td>456788</td><td>Wrong ID</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Amazon.EndtoEndProject.AmazonLogin#loginPagaNavigation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>tooba.rasheed94@gmail.com</td><td>123456</td><td>Wrong pw</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Adding Multiple items in cart and validating</h2><h3 id="m6">Amazon.EndtoEndProject.AmazonAddingMultipleItemstoCart#AddingMultipleItems</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Amazon.EndtoEndProject.AmazonAddingMultipleItemstoCart#RemovingAllItems</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

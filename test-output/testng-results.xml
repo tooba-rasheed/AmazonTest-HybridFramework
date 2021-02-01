@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13135" started-at="2021-01-31T22:17:12 EST" finished-at="2021-01-31T22:17:25 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13135" started-at="2021-01-31T22:17:12 EST" finished-at="2021-01-31T22:17:25 EST">
+      <class name="Amazon.EndtoEndProject.DataDrivenSignup">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Amazon.EndtoEndProject.DataDrivenSignup@52e6fdee]" name="initialize" is-config="true" duration-ms="4264" started-at="2021-01-31T22:17:12 EST" finished-at="2021-01-31T22:17:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Amazon.EndtoEndProject.DataDrivenSignup@52e6fdee]" name="Registration" duration-ms="3199" started-at="2021-01-31T22:17:17 EST" data-provider="getTestData" finished-at="2021-01-31T22:17:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toobaaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pakistan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Amazon.EndtoEndProject.DataDrivenSignup@52e6fdee]" name="Registration" duration-ms="1724" started-at="2021-01-31T22:17:20 EST" data-provider="getTestData" finished-at="2021-01-31T22:17:21 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Salman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Amazon.EndtoEndProject.DataDrivenSignup@52e6fdee]" name="Registration" duration-ms="1095" started-at="2021-01-31T22:17:21 EST" data-provider="getTestData" finished-at="2021-01-31T22:17:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alyssa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alyssa@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["sword"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Amazon.EndtoEndProject.DataDrivenSignup@52e6fdee]" name="Registration" duration-ms="1491" started-at="2021-01-31T22:17:23 EST" data-provider="getTestData" finished-at="2021-01-31T22:17:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Walter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Walter@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12walt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Amazon.EndtoEndProject.DataDrivenSignup@52e6fdee]" name="Teardown" is-config="true" duration-ms="718" started-at="2021-01-31T22:17:24 EST" finished-at="2021-01-31T22:17:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Amazon.EndtoEndProject.DataDrivenSignup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

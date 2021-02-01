@@ -1,0 +1,7 @@
+23:08:53.747 [TestNG-tests-2] INFO  resources.Base - CDN$ 280.00
+23:09:02.575 [TestNG-tests-2] INFO  resources.Base - CDN$ 280.00
+23:09:02.575 [TestNG-tests-2] INFO  resources.Base - PRICE VALIDATED
+23:09:04.333 [TestNG-tests-2] INFO  resources.Base - Increasing quantity of items to 2 directly from the cart
+23:09:04.333 [TestNG-tests-2] INFO  resources.Base - Total price of 2 items is:CDN$ 560.00
+23:09:12.959 [TestNG-tests-1] INFO  resources.Base - eyecream added to cart
+23:09:20.038 [TestNG-tests-2] INFO  resources.Base - Total Number of items increased by 1 more:Subtotal (3 items): CDN$ 840.00
