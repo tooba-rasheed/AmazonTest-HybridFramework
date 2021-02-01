@@ -12,14 +12,15 @@ Testcases:
 8.	Verifying LoginPage
 
 Deep Dive into the Framework:
-1	Followed Page Object Model design pattern
-2	Used Maven for dependencies
-3	Used Log4j2 for logging
-4	Used ExtentReporter for generating neat HTML report
-5	Used Listeners for taking Screenshots on failures
-6	Created Base class for common Utilities
-7	Tested Amazon’s signup page by fetching data from Excel file using Data Driven testing (Used pre-built Xls_Reader utility)
-8	Used various TestNg annotations in the project for eg. 
+
+1.	Followed Page Object Model design pattern
+2.	Used Maven for dependencies
+3.	Used Log4j2 for logging
+4.	Used ExtentReporter for generating neat HTML report
+5.	Used Listeners for taking Screenshots on failures
+6.	Created Base class for common Utilities
+7.	Tested Amazon’s signup page by fetching data from Excel file using Data Driven testing (Used pre-built Xls_Reader utility)
+8.	Used various TestNg annotations in the project for eg. 
 a.	@beforeTest
 b.	@afterTest
 c.	@Test(description=””, priority=1)
