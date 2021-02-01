@@ -1,5 +1,6 @@
 # AmazonTest-HybridFramework
 A Hybrid Test Automation Framework for E-commerce website “Amazon” to test its Shopping cart feature using my skills on selenium webdriver with TestNg
+
 Testcases:
 1.	Adding an item to the cart and validating its price
 2.	Increasing the quantity of the same item from the cart and verifying it
@@ -9,6 +10,7 @@ Testcases:
 6.	Validating page title
 7.	Verifying SignupPage
 8.	Verifying LoginPage
+
 Deep Dive into the Framework:
 1	Followed Page Object Model design pattern
 2	Used Maven for dependencies
@@ -22,7 +24,9 @@ a.	@beforeTest
 b.	@afterTest
 c.	@Test(description=””, priority=1)
 d.	@DataProvider
+
 Framework Structure:
+
 Src/main/Java:
 •	Pageobject:
 1.	Addtocart
@@ -35,6 +39,7 @@ Src/main/Java:
 8.	loginpagecontinuePW
 9.	Previewcart
 10.	Registrationpage
+
 •	Resources:
 1.	Base.java
 2.	ExtentReporterNG.java
@@ -51,6 +56,7 @@ Src/test/Java:
 4.	AmazonValidateTItle
 5.	DataDrivenSignup
 6.	Listeners
+
 Logs folder
 Reports folder
 Pom.xml
